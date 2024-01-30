@@ -1,15 +1,21 @@
 /* Navbar */
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: #1F2937;
+}
+
+.nav-link {
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar-lewagon .navbar-brand i {
   width: 40px;
+  color: #E5E7EB
 }
 /* ============================================= */
 
