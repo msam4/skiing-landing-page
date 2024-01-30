@@ -89,9 +89,6 @@
 }
 
 .card-container {
-  /* padding: 0 6px;
-  float: left;
-  width: 24.99999%; */
   display: grid;
   justify-content: space-evenly;
   grid-template-columns: repeat(4, minmax(0, 1fr));
