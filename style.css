@@ -2,6 +2,9 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: #1F2937;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }
 
 .nav-link {
