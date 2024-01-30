@@ -135,6 +135,37 @@
 }
 /* ============================================= */
 
+/* Sign-Up */
+
+#sign-up .container {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  padding: 32px 0;
+  border-radius: 32px;
+}
+
+#sign-up .container h1 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+#sign-up .container p {
+  font-size: 16px;
+}
+
+#sign-up .button {
+  border: 2px solid #E5E7EB;
+  box-shadow: none;
+}
+
+#sign-up .button:hover {
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+
+/* ============================================= */
+
 /* Footer */
 
 .footer {
