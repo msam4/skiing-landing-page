@@ -1,5 +1,5 @@
 /* Navbar */
-.navbar-lewagon {
+.navbar-style {
   justify-content: space-between;
   background: #1F2937;
   position: fixed;
@@ -12,7 +12,7 @@
   font-size: 18px;
 }
 
-.navbar-lewagon .navbar-brand i {
+.navbar-style .navbar-brand i {
   width: 40px;
   color: #E5E7EB
 }
