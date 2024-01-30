@@ -74,6 +74,40 @@
 
 /* ============================================= */
 
+/* Information */
+
+.card-container {
+  /* padding: 0 6px;
+  float: left;
+  width: 24.99999%; */
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  background-color: white;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* ============================================= */
+
 /* Footer */
 
 .footer {
