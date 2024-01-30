@@ -85,7 +85,9 @@
   color: rgba(0,0,0,0.3);
 }
 
-.footer-copyright {
-  text-align: center;
+.footer {
+  justify-content: center;
+  color: #E5E7EB;
+  background-color: #1F2937;
 }
 /* ============================================= */
