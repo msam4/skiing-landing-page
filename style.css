@@ -78,8 +78,14 @@
 
 #information {
   padding: 150px 48px;
-  display: flex;
-  justify-content: space-evenly;
+}
+
+#information h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  padding: 16px 0;
 }
 
 .card-container {
@@ -87,6 +93,7 @@
   float: left;
   width: 24.99999%; */
   display: grid;
+  justify-content: space-evenly;
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
