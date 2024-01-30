@@ -76,6 +76,12 @@
 
 /* Information */
 
+#information {
+  padding: 150px 48px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .card-container {
   /* padding: 0 6px;
   float: left;
@@ -96,8 +102,10 @@
 }
 
 .card img {
-  width: 150px;
+  width: 288px;
   height: 150px;
+  border: 8px groove #3882f6;
+  border-radius: 16px;
   object-fit: cover;
 }
 
